@@ -54,6 +54,7 @@
 		<module>initializr-service-sample</module>
 		<module>initializr-version-resolver</module>
 		<module>initializr-web</module>
+		<module>tmk-spring-initializr</module>
 	</modules>
 
 	<build>
