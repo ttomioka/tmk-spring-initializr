@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package sample.service;
+package jp.tmkworks.tmkspringinitializr;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.spring.initializr.web.support.SpringIoInitializrMetadataUpdateStrategy;
@@ -34,10 +34,10 @@ import org.springframework.scheduling.annotation.EnableAsync;
 @SpringBootApplication
 @EnableCaching
 @EnableAsync
-public class ServiceApplication {
+public class TmkSpringInitializrApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServiceApplication.class, args);
+		SpringApplication.run(TmkSpringInitializrApp.class, args);
 	}
 
 	// This bean opt-in for fetching available Spring Boot versions from https://spring.io
